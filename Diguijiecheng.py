@@ -8,5 +8,5 @@ def fact(j):
     else:
         sum = j * fact(j - 1)
     return sum
-for i in range(5):
+for i in range(10):
     print("%d! = %d" %(i,fact(i)))
